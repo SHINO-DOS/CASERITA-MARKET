@@ -56,44 +56,6 @@ Caserita Market es una app móvil para conectar productores con compradores. Per
 
 ## Estructura del codigo
 
-caserita_market/
-│
-├── assets/
-│   └── images/
-│       └── logo_caserita.png          # 📸 Tu logo oficial (la Cholita)
-│
-├── lib/
-│   ├── features/                      # 💡 Funcionalidades principales de la app
-│   │   │
-│   │   ├── ai/                        # 🤖 Módulo de Inteligencia Artificial
-│   │   │   └── ai_analysis_screen.dart
-│   │   │
-│   │   ├── auth/                      # 🔐 Módulo de Seguridad y Accesos
-│   │   │   ├── controllers/
-│   │   │   │   └── auth_controller.dart
-│   │   │   └── screens/
-│   │   │       ├── login_screen.dart
-│   │   │       ├── register_screen.dart # 🎯 ¡Ubicado aquí correctamente!
-│   │   │       └── welcome_screen.dart   # 🌟 Tu nueva pantalla de presentación
-│   │   │
-│   │   ├── home/                      # 🏠 Menú Principal de la App
-│   │   │   └── home_screen.dart        # 🧭 El Director de Orquesta (Pestañas)
-│   │   │
-│   │   ├── products/                  # 🥬 Módulo de Gestión de Productos
-│   │   │   └── screens/
-│   │   │       ├── product_list_screen.dart
-│   │   │       └── register_product_screen.dart
-│   │   │
-│   │   └── profile/                   # 👤 Módulo del Perfil de Usuario
-│   │       └── profile_screen.dart
-│   │
-│   ├── services/                      # 🌐 Servicios Externos e Infraestructura
-│   │   └── gemini_service.dart         # 🔥 Tu conexión real con la IA de Google
-│   │
-│   ├── firebase_options.dart           # ⚙️ Llaves de conexión automática a Firebase
-│   └── main.dart                       # 🚀 El motor de arranque de toda tu aplicación
-│
-└── pubspec.yaml                        # 📦 El archivo donde activaste el logo y los paquetes
 
 ## Tecnologías usadas
 - **Flutter**: framework multiplataforma para UI.
