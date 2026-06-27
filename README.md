@@ -1,6 +1,8 @@
 # Documentación de la aplicación CASERITA-MARKET
 producto del productor al consumidor
 
+# Documentación de la aplicación Caserita Market
+
 ## ¿Qué hace esta aplicación?
 Caserita Market es una app móvil para conectar productores con compradores. Permite:
 - Registrar usuarios como **comprador** o **productor**.
@@ -52,7 +54,8 @@ Caserita Market es una app móvil para conectar productores con compradores. Per
 - `lib/features/map/`
   - Funcionalidad de mapas / ubicaciones.
 
-## Estructura Del Codigo
+## Estructura del codigo
+
 caserita_market/
 │
 ├── assets/
@@ -91,6 +94,7 @@ caserita_market/
 │   └── main.dart                       # 🚀 El motor de arranque de toda tu aplicación
 │
 └── pubspec.yaml                        # 📦 El archivo donde activaste el logo y los paquetes
+
 ## Tecnologías usadas
 - **Flutter**: framework multiplataforma para UI.
 - **Dart**: lenguaje de programación principal.
@@ -116,3 +120,4 @@ caserita_market/
 ## Consejos rápidos
 - Para cambiar cómo se muestra el dashboard, edita `lib/features/home/home_screen.dart`.
 - Para ajustar el login y los roles, edita `lib/features/auth/screens/login_screen.dart` y `lib/features/auth/controllers/auth_controller.dart`.
+
