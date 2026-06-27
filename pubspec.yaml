@@ -1,0 +1,31 @@
+name: caserita_market
+description: App para gestión de insumos críticos en Bolivia
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.0
+  cloud_firestore: ^5.4.0
+  firebase_storage: ^12.3.0
+  google_generative_ai: ^0.4.0        # Gemini oficial
+  provider: ^6.1.2                     # State management recomendado
+  intl: ^0.19.0
+  image_picker: ^1.1.2
+  fluttertoast: ^8.2.8
+  url_launcher: ^6.3.0                 # Para abrir el enlace de Google Maps
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo_caserita.png
